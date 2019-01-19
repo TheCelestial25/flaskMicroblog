@@ -1,0 +1,82 @@
+2019-01-19 13:22:50,672 ERROR: Exception on /notifications [GET] [in c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\spriy\Documents\Python_programs\microblog\app\routes.py", line 20, in notifications
+    return jsonify([{
+NameError: name 'jsonify' is not defined
+2019-01-19 13:23:00,283 ERROR: Exception on /notifications [GET] [in c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\spriy\documents\python_programs\microblog\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\spriy\Documents\Python_programs\microblog\app\routes.py", line 20, in notifications
+    return jsonify([{
+NameError: name 'jsonify' is not defined
+2019-01-19 13:30:08,807 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:30:44,253 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:32:54,528 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:35:43,594 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:36:44,551 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:38:04,717 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:48:51,288 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:51:02,862 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 13:51:50,456 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:26:29,485 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:29:52,835 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:30:20,413 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:32:14,880 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:36:45,272 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:37:00,941 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:38:55,052 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:39:45,968 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:40:27,724 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:42:30,958 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:43:21,537 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:44:31,677 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:46:57,459 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:47:21,880 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:47:55,942 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:48:13,724 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 14:49:11,522 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:25:40,681 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:28:05,541 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:30:02,601 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:34:11,155 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:39:25,386 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:40:51,447 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:43:09,151 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:49:06,138 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:51:53,345 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 15:58:43,857 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:06:52,475 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:09:26,834 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:16:13,198 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:17:01,166 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:20:06,302 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:22:10,488 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:24:02,160 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]
+2019-01-19 16:49:30,631 INFO: Microblog startup [in C:\Users\spriy\Documents\Python_programs\microblog\app\__init__.py:70]

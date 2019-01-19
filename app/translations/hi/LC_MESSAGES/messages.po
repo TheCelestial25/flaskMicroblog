@@ -1,0 +1,243 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-16 10:45+0530\n"
+"PO-Revision-Date: 2019-01-16 15:03+0530\n"
+"Language: hi\n"
+"Language-Team: hi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: app/__init__.py:24
+msgid "Please log in to access this page."
+msgstr "इस पृष्ठ का प्रयोग करने के लिए लॉगिन करें|"
+
+#: app/email.py:19
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] अपना पासवर्ड रीसेट करें"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:39
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:64
+msgid "Password"
+msgstr "पारण शब्द"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "मुझे याद रखना"
+
+#: app/forms.py:14 app/routes.py:74 app/templates/login.html:5
+msgid "Sign In"
+msgstr "दाखिल हो"
+
+#: app/forms.py:19 app/forms.py:60
+msgid "Email"
+msgstr "ईमेल"
+
+#: app/forms.py:22 app/forms.py:66
+msgid "Repeat Password"
+msgstr "पासवर्ड दोहराएं"
+
+#: app/forms.py:24 app/routes.py:95 app/templates/register.html:5
+msgid "Register"
+msgstr "रजिस्टर"
+
+#: app/forms.py:30 app/forms.py:53
+msgid "Please use a different username."
+msgstr "कृपया किसी भिंन उपयोगकर्ता नाम का उपयोग करें|"
+
+#: app/forms.py:35
+msgid "Please use a different email address."
+msgstr "कृपया किसी अंय ईमेल पते का उपयोग करें।"
+
+#: app/forms.py:40
+msgid "About me"
+msgstr "मेरे बारे में"
+
+#: app/forms.py:42 app/forms.py:57
+msgid "Submit"
+msgstr "जमा करें"
+
+#: app/forms.py:56
+msgid "Say something"
+msgstr "कुछ बोलो"
+
+#: app/forms.py:61 app/forms.py:68
+msgid "Request Password Reset"
+msgstr "पासवर्ड रीसेट का अनुरोध करें"
+
+#: app/routes.py:30
+msgid "Your post is now live!"
+msgstr "आपकी पोस्ट अब लाइव है!"
+
+#: app/routes.py:39 app/templates/base.html:21
+msgid "Home"
+msgstr "होम"
+
+#: app/routes.py:54 app/templates/base.html:22
+msgid "Explore"
+msgstr "अन्वेषण"
+
+#: app/routes.py:67
+msgid "Invalid username or password"
+msgstr "अमान्य उपयोगकर्ता नाम या पासवर्ड"
+
+#: app/routes.py:93
+msgid "Congratulations, you are now a registered user!"
+msgstr "बधाई हो, अब आप एक पंजीकृत उपयोगकर्ता हैं!"
+
+#: app/routes.py:108
+msgid "Check your email for the instructions to reset your password"
+msgstr "अपना पासवर्ड रीसेट करने के निर्देशों के लिए अपना ईमेल देखें"
+
+#: app/routes.py:111 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "पासवर्ड रीसेट"
+
+#: app/routes.py:125
+msgid "Your password has been reset."
+msgstr "आपका पासवर्ड रिसेट कर दिया गया है।"
+
+#: app/routes.py:153
+msgid "Your changes have been saved."
+msgstr "आपके परिवर्तनों को सहेजा गया है।"
+
+#: app/routes.py:158
+msgid "Edit Profile"
+msgstr "प्रोफाइल एडिट करें"
+
+#: app/routes.py:167 app/routes.py:183
+#, python-format
+msgid "User %(username)s not found."
+msgstr "उपयोगकर्ता %(username)s नहीं मिला।"
+
+#: app/routes.py:170
+msgid "You cannot follow yourself!"
+msgstr "आप स्वयं का अनुसरण नहीं कर सकते!"
+
+#: app/routes.py:174
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "आप %(username)s का अनुसरण कर रहे हैं!"
+
+#: app/routes.py:186
+msgid "You cannot unfollow yourself!"
+msgstr "आप खुद को अनफॉलो नहीं कर सकते हैं!"
+
+#: app/routes.py:190
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "आप %(username)s का अनुसरण नहीं कर रहे हैं।"
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "उपयोगकर्ता %(username)s नहीं मिला।"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "वापस"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "एक अनपेक्षित त्रुटि हो गई है|"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "व्यवस्थापक को सूचित कर दिया गया है। असुविधा के लिए खेद है!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s कहा %(when)s"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "माइक्रोब्लॉग में आपका स्वागत है"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "लॉग इन करें"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "लोग आउट"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "नमस्ते %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:31
+msgid "Newer posts"
+msgstr "नए पोस्टस"
+
+#: app/templates/index.html:22 app/templates/user.html:36
+msgid "Older posts"
+msgstr "पुराने पोस्ट"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "नया उपयोगकर्ता?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "रजिस्टर करने के लिए क्लिक करें!"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "क्या आप पासवर्ड भूल गए?"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "इसे रीसेट करने के लिए क्लिक करें"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "अपना पासवर्ड रीसेट करें"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "अंतिम बार देखा गया"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d followers"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d following"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "अपनी प्रोफाइल में परिवर्तन करें"
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr "Follow"
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr "Unfollow"
